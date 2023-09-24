@@ -7,7 +7,7 @@
     <apex:attribute name="paramMainBoatLength" type="Integer" description="The mainBoatLength to assign to the Controller" assignTo="{!mainBoatLength}" />
     <apex:attribute name="paramMainBoatYear" type="Integer" description="The mainBoatYear to assign to the Controller"  assignTo="{!mainBoatYear}" />
     <apex:attribute name="paramMainBoatId" type="Id" description="The paramMainBoatId to assign to the Controller"  assignTo="{!mainBoatId}" />
-    <!-- This is a Test Comment for fixing Bugs       -->
+    <!-- This is a Test Comment for fixing Bugs -->
     <apex:pageBlock title="Similar Boats" mode="detail">
         <apex:repeat var="similarBoat" value="{!similarBoats}">
             <apex:pageBlockSection title="{!similarBoat.Name}">
