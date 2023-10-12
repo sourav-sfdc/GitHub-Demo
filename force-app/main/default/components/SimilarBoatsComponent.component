@@ -1,7 +1,7 @@
 <!--
  - Created by Sourav on 3/10/2023.
  -->
-
+<!--Hwllo World-->
 <apex:component controller="SimilarBoatsController" id="SimilarBoatsComponent" access="global">
     <apex:attribute name="paramMainBoatPrice" type="Double" description="The mainBoatPrice to assign to the Controller"  assignTo="{!mainBoatPrice}" />
     <apex:attribute name="paramMainBoatLength" type="Integer" description="The mainBoatLength to assign to the Controller" assignTo="{!mainBoatLength}" />
