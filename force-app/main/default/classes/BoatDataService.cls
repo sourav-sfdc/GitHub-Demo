@@ -1,7 +1,7 @@
 /**
  * Created by SOURAV on 3/10/2023.
  */
-
+//changes done
 public with sharing class BoatDataService {
 
     public static final String LENGTH_TYPE = 'Length';
@@ -92,7 +92,7 @@ public with sharing class BoatDataService {
                         CreatedDate DESC
         ];
     }
-
+//Fixed the issue
     // Assume this may be an API that return this data, not a SOQL query
     @AuraEnabled(cacheable=true)
     public static String getBoatsByLocation(Decimal latitude, Decimal longitude, String boatTypeId) {

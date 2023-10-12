@@ -1,7 +1,7 @@
 /**
  * Created by SOURAV on 3/10/2023.
  */
-
+// New line added
 public with sharing class SimilarBoatsController {
 
     public Double mainBoatPrice { get; set; }
