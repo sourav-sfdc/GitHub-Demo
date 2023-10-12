@@ -93,7 +93,7 @@ public with sharing class BoatDataService {
                         CreatedDate DESC
         ];
     }
-
+//Fixed the issue
     // Assume this may be an API that return this data, not a SOQL query
     @AuraEnabled(cacheable=true)
     public static String getBoatsByLocation(Decimal latitude, Decimal longitude, String boatTypeId) {
