@@ -33,7 +33,6 @@ public with sharing class BoatDataService {
             return similarBoats;
         }
         if (similarBy == LENGTH_TYPE) {
-            //system.debug();
             similarBoats = [
                     SELECT Id, Contact__r.Name, Name, BoatType__c, BoatType__r.Name, Length__c, Picture__c, Price__c, Year_Built__c
                     FROM Boat__c
