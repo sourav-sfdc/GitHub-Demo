@@ -1,7 +1,13 @@
 /**
  * Created by SOURAV on 3/10/2023.
  */
+// Changes made by Shoubhik on Oct 12,2023
+// These changes could cause Merge conflict while merging 
 
+// This Comment will fix Issue 13
+// Resolve, Resolves, Resolved, Resolving
+// Fix, Fixes, Fixed, Fixing
+// Close, Closes, Closed, Closing
 public with sharing class GenerateData {
 
     public static final Map<String, List<Double>> BOAT_NAMES_GEOLOCATIONS = new Map<String, List<Double>> {

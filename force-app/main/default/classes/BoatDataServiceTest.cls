@@ -15,7 +15,7 @@ public with sharing class BoatDataServiceTest {
     static void testGetBoatsWithBoatId(){
         List<BoatType__c> boatTypes = BoatDataService.getBoatTypes();
         System.assertEquals(false, boatTypes.isEmpty(),'The there are no Boat Type records.');
-
+        // Started working on issue 5
         String boatTypeId = boatTypes.get(0).Id;
         List<Boat__c> boatsToTest = BoatDataService.getBoats(boatTypeId);
         List<Boat__c> boatsWithIdExpected = [SELECT Id FROM Boat__c WHERE BoatType__c = :boatTypeId];
